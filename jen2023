@@ -1,4 +1,5 @@
-node('wallmart-node'){
+node{
+agent any
 
 //echo "GitHub BranhName ${env.BRANCH_NAME}"
   //echo "Jenkins Job Number ${env.BUILD_NUMBER}"
